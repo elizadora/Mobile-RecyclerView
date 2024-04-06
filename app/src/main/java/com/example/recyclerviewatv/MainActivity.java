@@ -34,22 +34,23 @@ public class MainActivity extends AppCompatActivity {
         rvPokemon.setLayoutManager(layoutManager);
 
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, layoutManager.getOrientation());
+
         rvPokemon.addItemDecoration(dividerItemDecoration);
 
         rvPokemon.setAdapter(itemArrayAdapter);
 
-        itemList.add(new Item("Nome: Bulbasaur", "Tipo: Pererca", R.drawable.a));
-        itemList.add(new Item("Nome: Ivysaur", "Tipo: Pererca", R.drawable.b));
-        itemList.add(new Item("Nome: Venusaur", "Tipo: Pererca", R.drawable.c));
-        itemList.add(new Item("Nome: Charmander", "Tipo: Pererca", R.drawable.d));
-        itemList.add(new Item("Nome: Charmeleon", "Tipo: Pererca", R.drawable.e));
-        itemList.add(new Item("Nome: Charizard", "Tipo: Pererca", R.drawable.f));
-        itemList.add(new Item("Nome: Squirtle", "Tipo: Pererca", R.drawable.g));
-        itemList.add(new Item("Nome: Wartortle", "Tipo: Pererca", R.drawable.h));
-        itemList.add(new Item("Nome: Blastoise", "Tipo: Pererca", R.drawable.i));
-        itemList.add(new Item("Nome: Gastly", "Tipo: Pererca", R.drawable.j));
-        itemList.add(new Item("Nome: Haunter", "Tipo: Pererca", R.drawable.k));
-        itemList.add(new Item("Nome: Gengar", "Tipo: Pererca", R.drawable.l));
+        itemList.add(new Item("Nome: Bulbasaur", "Tipo: Planta, Venenoso", R.drawable.a));
+        itemList.add(new Item("Nome: Ivysaur", "Tipo: Planta, Venenoso", R.drawable.b));
+        itemList.add(new Item("Nome: Venusaur", "Tipo: Planta, Venenoso", R.drawable.c));
+        itemList.add(new Item("Nome: Charmander", "Tipo: Fogo", R.drawable.d));
+        itemList.add(new Item("Nome: Charmeleon", "Tipo: Fogo", R.drawable.e));
+        itemList.add(new Item("Nome: Charizard", "Tipo: Fogo, Voador", R.drawable.f));
+        itemList.add(new Item("Nome: Squirtle", "Tipo: Água", R.drawable.g));
+        itemList.add(new Item("Nome: Wartortle", "Tipo: Água", R.drawable.h));
+        itemList.add(new Item("Nome: Blastoise", "Tipo: Água", R.drawable.i));
+        itemList.add(new Item("Nome: Gastly", "Tipo: Fantasma, Venenoso", R.drawable.j));
+        itemList.add(new Item("Nome: Haunter", "Tipo: Fantasma, Venenoso", R.drawable.k));
+        itemList.add(new Item("Nome: Gengar", "Tipo: Fantasma, Venenoso", R.drawable.l));
 
 
     }
